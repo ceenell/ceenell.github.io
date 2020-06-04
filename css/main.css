@@ -9,7 +9,7 @@ body, html {
 		font-family: Arial, sans-serif;
       	font-size: 18px;
 	  	color: white;
-		  line-height: 22px;
+		  line-height: 18px;
 		  background-image: 
 	}
 	.change {
@@ -34,3 +34,10 @@ h1 {
 	a {
 		color: white;
 	}
+.logo {
+	height: 120px;
+
+	}
+.path {
+	stroke-dasharray: 2
+}
