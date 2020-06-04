@@ -42,36 +42,32 @@ a {
 /* Style all font awesome icons */
 .fa {
 	padding: 10px;
-	font-size: 100px;
 	width: 50px;
 	text-decoration: none;
+	background: rgba(0,0,0,0);
+	color: white;
   }
 /* Add a hover effect if you want */
 .fa:hover {
-	opacity: 0.7;
+	opacity: 0.5;
   }
 
 /* fa icons */
 .fa-twitter {
 	background: rgba(0,0,0,0);
 	color: white;
-	width: 50px;
-	font-size: 360px;
   }
 .fa-github {
 	background: rgba(0,0,0,0);
 	color: white;
-	width: 50px;
-	font-size: 360px;
 }
-
+/* randomized backgroudn effect */
 .path {
 	stroke-dasharray: 2
 }
 .change {
 	width: 100%;
 	height: 100%;
-
 	}
 
 .change .refresh {
