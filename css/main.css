@@ -41,9 +41,9 @@ a {
 
 /* Style all font awesome icons */
 .fa {
-	padding: 20px;
+	padding: 10px;
 	font-size: 100px;
-	width: 150px;
+	width: 50px;
 	text-decoration: none;
   }
 /* Add a hover effect if you want */
@@ -51,14 +51,20 @@ a {
 	opacity: 0.7;
   }
 
-/* Twitter */
+/* fa icons */
 .fa-twitter {
 	background: rgba(0,0,0,0);
 	color: white;
-	width: 150px;
+	width: 50px;
 	font-size: 360px;
   }
-  
+.fa-github {
+	background: rgba(0,0,0,0);
+	color: white;
+	width: 50px;
+	font-size: 360px;
+}
+
 .path {
 	stroke-dasharray: 2
 }
