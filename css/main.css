@@ -1,6 +1,6 @@
 body, html {
         text-align: right;
-		margin-right: 100px;
+		margin-right: 2%;
 		background-size: cover;
 		background: #8a2387; /* fallback for old browsers */
 		background: -webkit-linear-gradient(to bottom right, #8A2387, #8360c3, #2ebf91); /* Chrome 10-25, Safari 5.1-6 */
@@ -30,18 +30,18 @@ a {
 
 .logo {
 	height: 120px;
-	padding:5px;
+	padding:.5%;
 	}
 
 .logo_L {
 	height: 180px;
-	padding:5px;
+	padding:.5%;
 
 	}
 
 /* Style all font awesome icons */
 .fa {
-	padding: 10px;
+	padding: 1%;
 	width: 50px;
 	text-decoration: none;
 	background: rgba(0,0,0,0);
