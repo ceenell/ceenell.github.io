@@ -61,7 +61,7 @@ a {
 	animation-name: C-anim; 
 	animation-duration: 3.75s;
 }
-O {
+#O {
 	stroke-dasharray: 450px;
 	stroke-dashoffset: 0px;
 	animation-name: O-anim; 
@@ -112,33 +112,33 @@ O {
 }
 @keyframes C-anim {
 	from {stroke-dashoffset: -650px}
-	to {stroke-dashoffset: 0px;}
+	to {stroke-dashoffset: 650px;}
 }
 @keyframes O-anim {
 	from {stroke-dashoffset: -450px}
-	to {stroke-dashoffset: 0px;}
+	to {stroke-dashoffset: 450px;}
 }
 @keyframes L1-anim {
 	from {stroke-dashoffset: -450px}
-	to {stroke-dashoffset: 0px;}
+	to {stroke-dashoffset: 450px;}
 }
 @keyframes L2-anim {
 	from {stroke-dashoffset: -450px}
-	to {stroke-dashoffset: 0px;}
+	to {stroke-dashoffset: 450px;}
 }
 @keyframes N-anim {
 	from {stroke-dashoffset: -850px}
-	to {stroke-dashoffset: 0px;}
+	to {stroke-dashoffset: 850px;}
 }
 @keyframes E-anim {
 	from {stroke-dashoffset: -755px}
-	to {stroke-dashoffset: 0px;}
+	to {stroke-dashoffset: 755px;}
 }
 @keyframes L3-anim {
 	from {stroke-dashoffset: -450px}
-	to {stroke-dashoffset: 0px;}
+	to {stroke-dashoffset: 450px;}
 }
 @keyframes L4-anim {
 	from {stroke-dashoffset: -450px}
-	to {stroke-dashoffset: 0px;}
+	to {stroke-dashoffset: 450px;}
 }
