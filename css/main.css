@@ -59,55 +59,55 @@ a {
 	stroke-dasharray: 650px;
 	stroke-dashoffset: 0px;
 	animation-name: C-anim; 
-	animation-duration: 3.75s;
+	animation-duration: 5.75s;
 }
 #O {
 	stroke-dasharray: 450px;
 	stroke-dashoffset: 0px;
 	animation-name: O-anim; 
-	animation-duration: 3.75s; 
+	animation-duration: 5.75s; 
 	animation-delay: 0.2s;
 }
 #L1 {
 	stroke-dasharray: 450px;
 	stroke-dashoffset: 0px;
 	animation-name: L1-anim; 
-	animation-duration: 3.75s; 
+	animation-duration: 5.75s; 
 	animation-delay: 0.4s;
 }
 #L2 {
 	stroke-dasharray: 450px;
 	stroke-dashoffset: 0px;
 	animation-name: L2-anim; 
-	animation-duration: 3.75s; 
+	animation-duration: 5.75s; 
 	animation-delay: 0.6s; 
 }
 #N {
 	stroke-dasharray: 850px;
 	stroke-dashoffset: 0px;
 	animation-name: N-anim; 
-	animation-duration: 3.75s; 
+	animation-duration: 5.75s; 
 	animation-delay: 0.8s; 
 }
 #E {
 	stroke-dasharray: 755px;
 	stroke-dashoffset: 0px;
 	animation-name: E-anim; 
-	animation-duration: 3.75s; 
+	animation-duration: 5.75s; 
 	animation-delay: 1s; 
 }
 #L3 {
 	stroke-dasharray: 450px;
 	stroke-dashoffset: 0px;
 	animation-name: L3-anim; 
-	animation-duration: 3.75s; 
+	animation-duration: 5.75s; 
 	animation-delay: 1.2s; 
 }
 #L4 {
 	stroke-dasharray: 450px;
 	stroke-dashoffset: 0px;
 	animation-name: L4-anim; 
-	animation-duration: 3.75s; 
+	animation-duration: 5.75s; 
 	animation-delay: 1.4s; 
 }
 @keyframes C-anim {
