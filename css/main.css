@@ -16,6 +16,26 @@ body, html {
 	a {
 		color: white;
 	}
+	p {
+		font-family: Courier New, monospace;
+	}
+	.alignleft {
+		float: left;
+		margin-left: 2%;
+		text-align: left;
+		width: 35%;
+	}
+	.alignright {
+		float: right;
+		margin-right: 4%;
+		text-align: right;
+		width: 55%;
+	}
+	#social {
+		padding: 2%;
+		width: 100%;
+		display: inline-block;
+	}
 
 /* Style all font-awesome & academ- icons */
 .fa, .ai {
