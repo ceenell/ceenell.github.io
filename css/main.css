@@ -13,34 +13,22 @@ body, html {
 	  	color: white;
 }
 
-	p {
-		text-align: right;
-		margin-right: 0px;
-		color: white;
-		font-size: 10;
-	}
 	a {
 		color: white;
 	}
 
 /* Style all font-awesome & academ- icons */
 .fa, .ai {
-	padding: 1%;
-	width: 50px;
+	padding: 2%;
+	width: 40px;
 	text-decoration: none;
 	background: rgba(0,0,0,0);
 	color: white;
   }
   
-/* Add a hover effect if you want */
+/* Add a hover effect */
 .fa:hover, .ai:hover {
 	opacity: 0.5;
-  }
-
-/* fa icons */
-.fa-twitter, .fa-github {
-	background: rgba(0,0,0,0);
-	color: white;
   }
 
 /* svg lettering in logo */
@@ -51,50 +39,50 @@ body, html {
 }
 
 /* svg line animation */
-
 :root {
 	--anim-time: 3s;
+	--anim-delay: 0.2s;
   }
 
 #C {
 	stroke-dasharray: 650px;
 	stroke-dashoffset: 0px;
-	animation: anim-650 var(--anim-time) linear;
+	animation: anim-650 var(--anim-time) linear calc(var(--anim-delay) * 1);
 }
 #O {
 	stroke-dasharray: 450px;
 	stroke-dashoffset: 0px;
-	animation: anim-450 var(--anim-time) linear 0.2s;
+	animation: anim-450 var(--anim-time) linear calc(var(--anim-delay) * 2);
 }
 #L1 {
 	stroke-dasharray: 450px;
 	stroke-dashoffset: 0px;
-	animation: anim-450 var(--anim-time) linear 0.4s;
+	animation: anim-450 var(--anim-time) linear calc(var(--anim-delay) * 3);
 }
 #L2 {
 	stroke-dasharray: 450px;
 	stroke-dashoffset: 0px;
-	animation: anim-450 var(--anim-time) linear 0.6s; 
+	animation: anim-450 var(--anim-time) linear calc(var(--anim-delay) * 4); 
 }
 #N {
 	stroke-dasharray: 850px;
 	stroke-dashoffset: 0px;
-	animation: N-anim var(--anim-time) linear 0.8s; 
+	animation: anim-850 var(--anim-time) linear calc(var(--anim-delay) * 5); 
 }
 #E {
 	stroke-dasharray: 755px;
 	stroke-dashoffset: 0px;
-	animation: E-anim var(--anim-time) linear 1s; 
+	animation: anim-850 var(--anim-time) linear calc(var(--anim-delay) * 6); 
 }
 #L3 {
 	stroke-dasharray: 450px;
 	stroke-dashoffset: 0px;
-	animation: anim-450 var(--anim-time) linear 1.2s; 
+	animation: anim-450 var(--anim-time) linear calc(var(--anim-delay) * 7); 
 }
 #L4 {
 	stroke-dasharray: 450px;
 	stroke-dashoffset: 0px;
-	animation: anim-450 var(--anim-time) linear 1.4s; 
+	animation: anim-450 var(--anim-time) linear calc(var(--anim-delay) * 8); 
 }
 @keyframes anim-650 {
 	from {stroke-dashoffset: -650px}
@@ -104,11 +92,7 @@ body, html {
 	from {stroke-dashoffset: -450px}
 	to {stroke-dashoffset: 450px;}
 }
-@keyframes N-anim {
+@keyframes anim-850 {
 	from {stroke-dashoffset: -850px}
 	to {stroke-dashoffset: 850px;}
-}
-@keyframes E-anim {
-	from {stroke-dashoffset: -755px}
-	to {stroke-dashoffset: 755px;}
 }
