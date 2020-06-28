@@ -13,21 +13,17 @@ body, html {
 	  	color: white;
 }
 
-h1 {
-	font-family: Arial, sans-serif;
-	font-size: 150px;
-}
-p {
-	text-align: right;
-	margin-right: 0px;
-	color: white;
-	font-size: 10;
-}
-a {
-	color: white;
-}
+	p {
+		text-align: right;
+		margin-right: 0px;
+		color: white;
+		font-size: 10;
+	}
+	a {
+		color: white;
+	}
 
-/* Style all font awesome icons */
+/* Style all font-awesome & academ- icons */
 .fa, .ai {
 	padding: 1%;
 	width: 50px;
@@ -37,7 +33,7 @@ a {
   }
   
 /* Add a hover effect if you want */
-.fa:hover {
+.fa:hover, .ai:hover {
 	opacity: 0.5;
   }
 
@@ -47,81 +43,64 @@ a {
 	color: white;
   }
 
+/* svg lettering in logo */
 #C, #O, #L1, #L2, #N, #E, #L3, #L4 {
 	stroke: white;
-	stroke-width: 2px;
+	stroke-width: 1px;
 	fill: transparent;
 }
 
+/* svg line animation */
+
+:root {
+	--anim-time: 3s;
+  }
 
 #C {
 	stroke-dasharray: 650px;
 	stroke-dashoffset: 0px;
-	animation-name: C-anim; 
-	animation-duration: 5.75s;
+	animation: anim-650 var(--anim-time) linear;
 }
 #O {
 	stroke-dasharray: 450px;
 	stroke-dashoffset: 0px;
-	animation-name: O-anim; 
-	animation-duration: 5.75s; 
-	animation-delay: 0.2s;
+	animation: anim-450 var(--anim-time) linear 0.2s;
 }
 #L1 {
 	stroke-dasharray: 450px;
 	stroke-dashoffset: 0px;
-	animation-name: L1-anim; 
-	animation-duration: 5.75s; 
-	animation-delay: 0.4s;
+	animation: anim-450 var(--anim-time) linear 0.4s;
 }
 #L2 {
 	stroke-dasharray: 450px;
 	stroke-dashoffset: 0px;
-	animation-name: L2-anim; 
-	animation-duration: 5.75s; 
-	animation-delay: 0.6s; 
+	animation: anim-450 var(--anim-time) linear 0.6s; 
 }
 #N {
 	stroke-dasharray: 850px;
 	stroke-dashoffset: 0px;
-	animation-name: N-anim; 
-	animation-duration: 5.75s; 
-	animation-delay: 0.8s; 
+	animation: N-anim var(--anim-time) linear 0.8s; 
 }
 #E {
 	stroke-dasharray: 755px;
 	stroke-dashoffset: 0px;
-	animation-name: E-anim; 
-	animation-duration: 5.75s; 
-	animation-delay: 1s; 
+	animation: E-anim var(--anim-time) linear 1s; 
 }
 #L3 {
 	stroke-dasharray: 450px;
 	stroke-dashoffset: 0px;
-	animation-name: L3-anim; 
-	animation-duration: 5.75s; 
-	animation-delay: 1.2s; 
+	animation: anim-450 var(--anim-time) linear 1.2s; 
 }
 #L4 {
 	stroke-dasharray: 450px;
 	stroke-dashoffset: 0px;
-	animation-name: L4-anim; 
-	animation-duration: 5.75s; 
-	animation-delay: 1.4s; 
+	animation: anim-450 var(--anim-time) linear 1.4s; 
 }
-@keyframes C-anim {
+@keyframes anim-650 {
 	from {stroke-dashoffset: -650px}
 	to {stroke-dashoffset: 650px;}
 }
-@keyframes O-anim {
-	from {stroke-dashoffset: -450px}
-	to {stroke-dashoffset: 450px;}
-}
-@keyframes L1-anim {
-	from {stroke-dashoffset: -450px}
-	to {stroke-dashoffset: 450px;}
-}
-@keyframes L2-anim {
+@keyframes anim-450 {
 	from {stroke-dashoffset: -450px}
 	to {stroke-dashoffset: 450px;}
 }
@@ -132,12 +111,4 @@ a {
 @keyframes E-anim {
 	from {stroke-dashoffset: -755px}
 	to {stroke-dashoffset: 755px;}
-}
-@keyframes L3-anim {
-	from {stroke-dashoffset: -450px}
-	to {stroke-dashoffset: 450px;}
-}
-@keyframes L4-anim {
-	from {stroke-dashoffset: -450px}
-	to {stroke-dashoffset: 450px;}
 }
