@@ -3,8 +3,10 @@ body, html {
 		margin-right: 2%;
 		background-size: cover;
 		background: #8a2387; /* fallback for old browsers */
-		background: -webkit-linear-gradient(to bottom right, #8A2387, #8360c3, #2ebf91); /* Chrome 10-25, Safari 5.1-6 */
-		background-image: linear-gradient(to bottom right, #8A2387, #8360c3, #2ebf91);/* IE 10+/ Edge, Firefox 16+, Chrome 26+, Safari 7+ */
+		/* Chrome 10-25, Safari 5.1-6 */
+		background: -webkit-linear-gradient(to bottom right, #8A2387, #8360c3, #2ebf91); 
+		/* IE 10+/ Edge, Firefox 16+, Chrome 26+, Safari 7+ */
+		background-image: linear-gradient(to bottom right, #8A2387, #8360c3, #2ebf91);
 		background-attachment: fixed;
 		font-family: Arial, sans-serif;
       	font-size: 18px;
@@ -26,27 +28,24 @@ a {
 }
 
 /* Style all font awesome icons */
-.fa {
+.fa, .ai {
 	padding: 1%;
 	width: 50px;
 	text-decoration: none;
 	background: rgba(0,0,0,0);
 	color: white;
   }
+  
 /* Add a hover effect if you want */
 .fa:hover {
 	opacity: 0.5;
   }
 
 /* fa icons */
-.fa-twitter {
+.fa-twitter, .fa-github {
 	background: rgba(0,0,0,0);
 	color: white;
   }
-.fa-github {
-	background: rgba(0,0,0,0);
-	color: white;
-}
 
 #C, #O, #L1, #L2, #N, #E, #L3, #L4 {
 	stroke: white;
