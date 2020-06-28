@@ -38,81 +38,81 @@ body, html {
 	}
 
 /* Style all font-awesome & academ- icons */
-.fa, .ai {
-	padding: 2%;
-	width: 40px;
-	text-decoration: none;
-	background: rgba(0,0,0,0);
-	color: white;
-  }
-  
-/* Add a hover effect */
-.fa:hover, .ai:hover {
-	opacity: 0.5;
-  }
+	.fa, .ai {
+		padding: 2%;
+		width: 40px;
+		text-decoration: none;
+		background: rgba(0,0,0,0);
+		color: white;
+	}
+	
+	/* Add a hover effect */
+	.fa:hover, .ai:hover {
+		opacity: 0.5;
+	}
 
-/* svg lettering in logo */
-#C, #O, #L1, #L2, #N, #E, #L3, #L4 {
-	stroke: white;
-	stroke-width: 1px;
-	fill: transparent;
-}
+	/* svg lettering in logo */
+	#layer_collnell {
+		stroke: white;
+		stroke-width: 1px;
+		fill: transparent;
+	}
 
-/* svg line animation */
-:root {
-	--anim-time: 3s;
-	--anim-delay: 0.2s;
-  }
+	/* svg line animation */
+	:root {
+		--anim-time: 3s;
+		--anim-delay: 0.2s;
+	}
 
-#C {
-	stroke-dasharray: 650px;
-	stroke-dashoffset: 0px;
-	animation: anim-650 var(--anim-time) linear calc(var(--anim-delay) * 1);
-}
-#O {
-	stroke-dasharray: 450px;
-	stroke-dashoffset: 0px;
-	animation: anim-450 var(--anim-time) linear calc(var(--anim-delay) * 2);
-}
-#L1 {
-	stroke-dasharray: 450px;
-	stroke-dashoffset: 0px;
-	animation: anim-450 var(--anim-time) linear calc(var(--anim-delay) * 3);
-}
-#L2 {
-	stroke-dasharray: 450px;
-	stroke-dashoffset: 0px;
-	animation: anim-450 var(--anim-time) linear calc(var(--anim-delay) * 4); 
-}
-#N {
-	stroke-dasharray: 850px;
-	stroke-dashoffset: 0px;
-	animation: anim-850 var(--anim-time) linear calc(var(--anim-delay) * 5); 
-}
-#E {
-	stroke-dasharray: 755px;
-	stroke-dashoffset: 0px;
-	animation: anim-850 var(--anim-time) linear calc(var(--anim-delay) * 6); 
-}
-#L3 {
-	stroke-dasharray: 450px;
-	stroke-dashoffset: 0px;
-	animation: anim-450 var(--anim-time) linear calc(var(--anim-delay) * 7); 
-}
-#L4 {
-	stroke-dasharray: 450px;
-	stroke-dashoffset: 0px;
-	animation: anim-450 var(--anim-time) linear calc(var(--anim-delay) * 8); 
-}
-@keyframes anim-650 {
-	from {stroke-dashoffset: -650px}
-	to {stroke-dashoffset: 650px;}
-}
-@keyframes anim-450 {
-	from {stroke-dashoffset: -450px}
-	to {stroke-dashoffset: 450px;}
-}
-@keyframes anim-850 {
-	from {stroke-dashoffset: -850px}
-	to {stroke-dashoffset: 850px;}
-}
+	#C {
+		stroke-dasharray: 650px;
+		stroke-dashoffset: 0px;
+		animation: anim-650 var(--anim-time) linear calc(var(--anim-delay) * 1);
+	}
+	#O {
+		stroke-dasharray: 450px;
+		stroke-dashoffset: 0px;
+		animation: anim-450 var(--anim-time) linear calc(var(--anim-delay) * 2);
+	}
+	#L1 {
+		stroke-dasharray: 450px;
+		stroke-dashoffset: 0px;
+		animation: anim-450 var(--anim-time) linear calc(var(--anim-delay) * 3);
+	}
+	#L2 {
+		stroke-dasharray: 450px;
+		stroke-dashoffset: 0px;
+		animation: anim-450 var(--anim-time) linear calc(var(--anim-delay) * 4); 
+	}
+	#N {
+		stroke-dasharray: 850px;
+		stroke-dashoffset: 0px;
+		animation: anim-850 var(--anim-time) linear calc(var(--anim-delay) * 5); 
+	}
+	#E {
+		stroke-dasharray: 755px;
+		stroke-dashoffset: 0px;
+		animation: anim-850 var(--anim-time) linear calc(var(--anim-delay) * 6); 
+	}
+	#L3 {
+		stroke-dasharray: 450px;
+		stroke-dashoffset: 0px;
+		animation: anim-450 var(--anim-time) linear calc(var(--anim-delay) * 7); 
+	}
+	#L4 {
+		stroke-dasharray: 450px;
+		stroke-dashoffset: 0px;
+		animation: anim-450 var(--anim-time) linear calc(var(--anim-delay) * 8); 
+	}
+	@keyframes anim-650 {
+		from {stroke-dashoffset: -650px}
+		to {stroke-dashoffset: 650px;}
+	}
+	@keyframes anim-450 {
+		from {stroke-dashoffset: -450px}
+		to {stroke-dashoffset: 450px;}
+	}
+	@keyframes anim-850 {
+		from {stroke-dashoffset: -850px}
+		to {stroke-dashoffset: 850px;}
+	}
