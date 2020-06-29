@@ -1,6 +1,13 @@
-function colorswap() {
-    var colorsa = ["#c94b4b","#f7797d","#FBD786","#C6FFDD","#f7797d","#b92b27","#FF0099","#3b8d99","#f5af19","#2ebf91","#ffd452","#8A2387"];
-    var colorsb = ["#302b63","#12c2e9","#c471ed","#1565C0","#4286f4","#493240","#99f2c8","#240b36","#659999","#108dc7","#8360c3","#544a7d","#a8ff78"];
-    var rand = Math.floor(Math.random() * colorsa.length);
-    document.body.background = colorsa[rand];
-}
+var color = new Array();
+color[0] = "#CC99FF";
+color[1] = "#FF99CC";
+color[2] = "#FF9999";
+color[3] = "#FFCC99";
+color[4] = "#FFFF99";
+color[5] = "#CCFF99";
+color[6] = "#99FF99";
+color[7] = "#99FFCC";
+color[8] = "#66FFFF";
+color[9] = "#66CCFF";
+
+document.body.style.backgroundColor=color
