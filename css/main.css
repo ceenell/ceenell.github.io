@@ -1,23 +1,20 @@
-body, html {
-        text-align: right;
-		margin-right: 2%;
-		background-size: cover;
-		background: #8a2387; /* fallback for old browsers */
-		/* Chrome 10-25, Safari 5.1-6 */
-		background: -webkit-linear-gradient(to bottom right, #8A2387, #8360c3, #2ebf91); 
-		/* IE 10+/ Edge, Firefox 16+, Chrome 26+, Safari 7+ */
-		background-image: linear-gradient(to bottom right, #8A2387, #8360c3, #2ebf91);
-		background-attachment: fixed;
-		font-family: Arial, sans-serif;
-      	font-size: 18px;
-	  	color: white;
+/* define universal vars */
+:root {
+	--anim-time: 3s;
+	--anim-delay: 0.2s;
 }
 
+html, body {
+	height: 100%;
+	width: 100%;
+	margin-right: 2%;
+}
 	a {
 		color: white;
 	}
 	p {
 		font-family: Courier New, monospace;
+		color: white;
 	}
 	.alignleft {
 		float: left;
@@ -59,11 +56,7 @@ body, html {
 	}
 
 	/* svg line animation */
-	:root {
-		--anim-time: 3s;
-		--anim-delay: 0.2s;
-	}
-
+	
 	#C {
 		stroke-dasharray: 650px;
 		stroke-dashoffset: 0px;
