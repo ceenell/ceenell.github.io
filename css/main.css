@@ -43,6 +43,9 @@ html, body {
 		background: rgba(0,0,0,0);
 		color: white;
 	}
+	.fa-github {
+		padding-left: 0;
+	}
 	
 	/* Add a hover effect */
 	.fa:hover, .ai:hover {
