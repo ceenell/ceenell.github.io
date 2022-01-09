@@ -62,40 +62,36 @@ html, body {
 		stroke-dashoffset: 0px;
 		animation: anim-650 var(--anim-time) linear calc(var(--anim-delay) * 1);
 	}
-	#O {
-		stroke-dasharray: 450px;
+	#E2 {
+		stroke-dasharray: 755px;
 		stroke-dashoffset: 0px;
-		animation: anim-450 var(--anim-time) linear calc(var(--anim-delay) * 2);
+		animation: anim-850 var(--anim-time) linear calc(var(--anim-delay) * 2); 
 	}
-	#L1 {
-		stroke-dasharray: 450px;
+	#E3 {
+		stroke-dasharray: 755px;
 		stroke-dashoffset: 0px;
-		animation: anim-450 var(--anim-time) linear calc(var(--anim-delay) * 3);
+		animation: anim-850 var(--anim-time) linear calc(var(--anim-delay) * 3); 
 	}
-	#L2 {
-		stroke-dasharray: 450px;
-		stroke-dashoffset: 0px;
-		animation: anim-450 var(--anim-time) linear calc(var(--anim-delay) * 4); 
-	}
+	
 	#N {
 		stroke-dasharray: 850px;
 		stroke-dashoffset: 0px;
-		animation: anim-850 var(--anim-time) linear calc(var(--anim-delay) * 5); 
+		animation: anim-850 var(--anim-time) linear calc(var(--anim-delay) * 4); 
 	}
 	#E {
 		stroke-dasharray: 755px;
 		stroke-dashoffset: 0px;
-		animation: anim-850 var(--anim-time) linear calc(var(--anim-delay) * 6); 
+		animation: anim-850 var(--anim-time) linear calc(var(--anim-delay) * 5); 
 	}
 	#L3 {
 		stroke-dasharray: 450px;
 		stroke-dashoffset: 0px;
-		animation: anim-450 var(--anim-time) linear calc(var(--anim-delay) * 7); 
+		animation: anim-450 var(--anim-time) linear calc(var(--anim-delay) * 6); 
 	}
 	#L4 {
 		stroke-dasharray: 450px;
 		stroke-dashoffset: 0px;
-		animation: anim-450 var(--anim-time) linear calc(var(--anim-delay) * 8); 
+		animation: anim-450 var(--anim-time) linear calc(var(--anim-delay) * 7); 
 	}
 	@keyframes anim-650 {
 		from {stroke-dashoffset: -650px}
