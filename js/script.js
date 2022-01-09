@@ -10,9 +10,6 @@ function random_bg_color() {
     var bgColor2 = "rgb(" + x2 + "," + y2 + "," + y2 + ")";
 
     var grad = Math.floor(Math.random() * 360);
-
- console.log(bgColor);
- console.log(bgColor2); 
   
     document.body.style.background = bgColor;
     document.body.style.backgroundImage = "linear-gradient("+ grad +"deg, "+ bgColor +", "+ bgColor +"45%, "+ bgColor2 +")";
