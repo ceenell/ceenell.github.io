@@ -19,14 +19,15 @@ html, body {
 		float: left;
 		margin-left: 2%;
 		text-align: left;
-		width: 44%;
+		width: 100%;
+		height: auto;
 	}
-	.alignright {
+/* 	.alignright {
 		float: right;
 		margin-right: 4%;
 		text-align: right;
 		width: 55%;
-	}
+	} */
 	#social {
 		padding: 2%;
 		width: 100%;
