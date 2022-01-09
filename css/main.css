@@ -19,7 +19,7 @@ html, body {
 		float: left;
 		margin-left: 2%;
 		text-align: left;
-		width: 100%;
+		width: 95%;
 		height: auto;
 	}
 /* 	.alignright {
@@ -58,6 +58,7 @@ html, body {
 		stroke-width: 1px;
 		fill: transparent;
 		padding: 2%;
+		width: 95%;
 	}
 
 	/* svg line animation */
