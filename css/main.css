@@ -14,12 +14,13 @@ html, body {
 	p {
 		font-family: Courier New, monospace;
 		color: white;
+		font-size: 16px;
 	}
 	.alignleft {
 		float: left;
 		margin-left: 2%;
 		text-align: left;
-		width: 95%;
+		width: 90%;
 		height: auto;
 	}
 /* 	.alignright {
@@ -58,7 +59,7 @@ html, body {
 		stroke-width: 1px;
 		fill: transparent;
 		padding: 2%;
-		width: 95%;
+		width: 90%;
 	}
 
 	/* svg line animation */
