@@ -57,6 +57,7 @@ html, body {
 		stroke: white;
 		stroke-width: 1px;
 		fill: transparent;
+		padding: 2%;
 	}
 
 	/* svg line animation */
